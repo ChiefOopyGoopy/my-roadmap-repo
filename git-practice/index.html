@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Git Add and Commit Test</title>
+    <style>
+        .comment{
+            color: #000011;
+            text-decoration: underline;
+            font-style: italic;
+            font-size: small;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body style="height: 100%; background-color:cornflowerblue">
+    <h1>Hello World!</h1>
+    <p>Hello People!</p>
+
+    <p>Testing GitHub branch</p>
+
+    <ul>
+        <li><code>git commit -m "This is a commit comment"</code> <span class="comment">This is a comment</span></li>
+        <li><code>git add "file.txt"</code></li>
+        <li><code>git branch</code> <span class="comment">Lists branches</span>
+            <ul>
+                <li><code>-d "branch-name"</code> <span class="comment">Deletes the defined branch</span></li>
+                <li><code>-m "branch-name"</code> <span class="comment">Renames the defined branch</span></li>
+            </ul>
+        </li>
+        <li><code>git checkout "alternate-branch"</code></li>
+        <li><code>git merge "alternate-branch"</code></li>
+    </ul>
+</body>
+</html>
